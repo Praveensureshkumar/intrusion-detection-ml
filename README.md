@@ -1,6 +1,6 @@
 # Detecting Cyber Threats in Medical Devices Using Machine Learning
 
-This project presents a **Machine Learning-based Network Intrusion Detection System (ML-NIDS)** designed to detect cyber threats in medical devices during data transfers. It applies **Support Vector Machines (SVM)**, **k-Nearest Neighbors (KNN)**, and **Random Forest (RF)** to identify and classify intrusions in network traffic using the UNSW-NB15 dataset.
+This project presents a **Machine Learning-based Network Intrusion Detection System (ML-NIDS)** designed to detect cyber threats in medical devices during data transfers. It applies **Support Vector Machines (SVM)**, **k-Nearest Neighbors (KNN)** and **Random Forest (RF)** to identify and classify intrusions in network traffic using the UNSW-NB15 dataset.
 
 > Final Year B.Tech Project by **S. Praveen**  
 Karunya Institute of Technology and Sciences, Coimbatore, India
@@ -13,7 +13,7 @@ Karunya Institute of Technology and Sciences, Coimbatore, India
 - **KNN (k-Nearest Neighbors)**
 - **Random Forest Classifier**
 
-Each model is trained using One-vs-Rest classification and evaluated using accuracy, precision, recall, and ROC/PR curves.
+Each model is trained using One-vs-Rest classification and evaluated using accuracy, precision, recall and ROC/PR curves.
 
 ---
 
@@ -57,16 +57,12 @@ intrusion-detection-ml/
 │   └── rf_predict_gui.py
 │
 ├── results/
-│   ├── knn_classification_report.txt
-│   ├── svm_classification_report.txt
-│   └── rf_classification_report.txt
+│   └── classification_report.txt
 │
 ├── images/
 │   ├── knn_confusion_matrix.png
 │   ├── svm_precision_recall_curve.png
 │   ├── rf_roc_curve.png
 │
-├── README.md
-├── requirements.txt
-└── project_report.pdf
+└── README.md
 
